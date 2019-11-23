@@ -1,0 +1,74 @@
+/* CONFIGURACOES GERAIS */
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif, helvetica;
+  background-image: url('./dinheiro.jpg');
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  width: 80%;
+  background-color: #eee;
+  margin: auto;
+  margin-top: 100px;
+  overflow: hidden;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 3rem;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.container input {
+  border-radius: 5px;
+  border: none;
+  color: #262626;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-bottom: 40px;
+  text-align: center;
+  outline: none;
+}
+
+.container input[type="text"] {
+  width: 30%;
+}
+
+.container input[type="submit"]{
+  margin-left: 15px;
+  cursor: pointer;
+  color: #eee;
+  background-color: #262626;
+}
+
+.container p {
+  display: inline;
+  font-size: 1.4rem;
+}
+
+select {
+  border-radius: 5px;
+  border: none;
+  color: #262626;
+  font-size: 1.2rem;
+  padding: 14px;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-right: 40px;
+}

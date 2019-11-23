@@ -1,1 +1,40 @@
-Salve salve rapaziada
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cotação Criptomoedas</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="icon" href="./moeda.png">
+  <script type="text/javascript" src="app.js"></script>
+  <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"/>
+</head>
+<body>
+  <div class="container">
+
+  <h1>Cotação de Criptomoedas</h1>
+  <input id="moeda" type="text" placeholder="Digite o código da criptomoeda"><br>
+  <p>Paridade:</p>
+  <select id="paridade">
+  <option value="brl">BRL</option>
+  <option value="usd">USD</option>
+  <option value="eur">EUR</option>
+  <option value="jpy">JPY</option>
+  <option value="cny">CNY</option>
+  <option value="cad">CAD</option>
+  <option value="gbp">GBP</option>
+  </select>
+  <p>Cotação:</p>
+  <select id="cotacao">
+    <option value="atual">Atual</option>
+    <option value="diario">Diário</option>
+    <option value="semanal">Semanal</option>
+    <option value="mensal">Mensal</option>
+  </select>
+  <input id='botao' type="submit" value="Buscar" onclick="funcaoBotao()">
+
+  <div id='dados'></div>
+
+  </div>
+  
+</body>
+</html>
