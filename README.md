@@ -1,5 +1,5 @@
 # Trabalho final de Laboratório de Redes
-# gobbidaniel.github.io
+## gobbidaniel.github.io
 
 Esse é o repositório do projeto final da disciplina de Lab Redes da UnB, que consiste em fazer uma interface web que consuma uma API.
 
@@ -7,3 +7,8 @@ O site consome uma API chamada "API de Consulta Tabela FIPE" (https://fipeapi.ap
 
 ## Como acessar o site
 Basta acessar https://gobbidaniel.github.io ou clonar o repositório e clicar 2x no arquivo index.html
+
+### Nome
+Daniel Gobbi Bergholz
+### Matrícula
+16/0004551
